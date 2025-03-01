@@ -1,30 +1,44 @@
-/* Write your CSS here */
-.bg-container {
-  background-color: #ffc2a0;
-  height: 120vh;
-  padding: 30px;
-}
-
-.card {
-  background-color: #ffffff;
-  width: 1050px;
-  height: 1000px;
-  margin-left: 50px;
-  margin-top: 80px;
-  border-radius: 10px;
-}
-
-.title {
-  color: #ff8542;
-  font-family: 'Roboto';
-  font-size: 60px;
-  font-weight: bolder;
-  font-style: normal;
-  text-align: center;
-  padding-top: 70px;
-}
-
 .container {
+  background-color: #ffc2a0;
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.inner-container {
+  background-color: white;
+  margin: 10px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 98%;
+  border-radius: 20px;
+}
+@media screen and (min-width: 768px) {
+  .inner-container {
+    padding: 48px;
+    margin-top: 96px;
+    margin-bottom: 96px;
+  }
+}
+.heading {
+  font-size: 30px;
+  font-family: 'Roboto';
+  color: #ff8542;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 48px;
+    margin-top: 32px;
+    margin-bottom: 48px;
+  }
+}
+.todos-list {
+  padding-left: 0px;
 }
