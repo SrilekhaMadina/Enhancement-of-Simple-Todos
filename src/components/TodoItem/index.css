@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.paragraph {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.button {
+  color: #ff0b37;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  border: 3px solid #ff0b37;
+  background-color: transparent;
+  margin-right: 50px;
+}
